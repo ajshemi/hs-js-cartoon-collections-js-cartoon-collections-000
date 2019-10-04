@@ -3,7 +3,8 @@ function dwarfRollCall(dwarves) {
   var newDwarves=[]
   
   // use for loop and concat method
-  for(var i=Math.floor(dwarves.length/2);i<dwarves.length;i++){
+  for(var i=0;i<dwarves.length;i++){
+  // for(var i=Math.floor(dwarves.length/2);i<dwarves.length;i++){
     newDwarves=newDwarves.concat(`${i+1}. ${dwarves[i]} `)
   }
   // return newDwarves array
